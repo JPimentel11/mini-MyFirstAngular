@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html ng-app="friendsList">
+  <head>
+    <meta charset="utf-8">
+    <title>Baby Angular Project</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.min.js"></script>
+  </head>
+  <body>
+    <div ng-controller="mainCtrl">
+      <h1>My Friends</h1>
+      <div ng-repeat="friend in friends">
+        <p>{{ friend }}</p>
+      </div>
+    </div>
+  </body>
+  <script type="text/javascript" src="js/app.js"></script>
+  <script type="text/javascript" src="js/mainCtrl.js"></script>
+</html>
